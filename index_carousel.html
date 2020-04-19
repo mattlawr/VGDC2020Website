@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>VGDC@UCSD</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+		<link rel="stylesheet" href="assets/css/main_carousel.css" />
+		<script src="https://use.fontawesome.com/cc7ad2dbcf.js"></script>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"> <span>Video Game Development Club @ UCSD</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="https://vgdc.dev/class">Game Development class!</a></li>
+							<li><a href="officers.html">Current Officers</a></li>
+							<li><a href="jobSearch.html">Job Search</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href= "https://forms.gle/U49oWStD7SQUBH838" class="button primary fit">Sign Up</a></li>
+							<li><a href= "https://www.facebook.com/groups/VGDC.UCSD/" class="button fit">Join our Facebook Group!</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<span class="inner">
+									<img src="images/logo.png" class="logoImage" alt="Welcome to VGDC" />
+									<!-- logo added by Matthew -->
+								</span>
+							</header>
+							<div class="content">
+								<p>Come join our game-making community!</p>
+								<!-- hard coded intro added by Matthew (fixes fade-in effect) -->
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Check Out Some of Our Games</a></li>
+									<li><a href="gallery.html" class="button next scrolly">View Our Event Gallery</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+						<section id="one">
+						<!-- Slideshow container -->
+							<div class = slideshow_section>
+							<div class="slideshow-container">
+
+
+								<!-- Full-width images with number and caption text -->
+								<div class="mySlides fade tiles">
+								<article>
+								<div class="numbertext">1 / 4</div>
+								<img class ="slide_img" src="images/pic01.jpg" alt="" style="width:100%">
+								<header class="major">
+									<h3><a href="https://store.steampowered.com/app/1005870/HYPERFIGHT/" class="link">Hyperfight</a></h3>
+									<p>A sick one hit fighter</p>
+								</header>
+								</article>
+								</div>
+                            
+                                
+								<div class="mySlides fade tiles">
+                                <article>
+								<div class="numbertext">2 / 4</div>
+								<img class ="slide_img" src="images/pic02.jpg" alt="" style="width:100%">
+                                <header class="major">
+                                    <h3><a href="https://store.steampowered.com/app/853770/MAXIMUM_Action/" class="link">Maximum Action</a></h3>
+                                    <p>A crazy retro 2D-shooter.</p>
+                                </header>
+                                </article>
+								</div>
+							
+								<div class="mySlides fade tiles">
+                                <article>
+								<div class="numbertext">3 / 4</div>
+								<img class ="slide_img" src="images/pic03.jpg" alt="" style="width:100%">
+                                <header class="major">
+                                    <h3><a href="https://www.kickstarter.com/projects/longstorystudios/unit-108/description?lang=it" class="link">Unit 108</a></h3>
+                                    <p>A stylistic 2D Platformer</p>
+                                </header>
+                                </article>
+								</div>
+
+								<div class="mySlides fade tiles">
+                                <article>
+									<div class="numbertext">4 / 4</div>
+									<img class ="slide_img" src="images/pic04.jpg" alt="" style="width:100%">
+                                    <header class="major">
+										<h3><a href="https://www.indiecade.com/patricks-parabox/" class="link">Patricks Parabox</a></h3>
+										<p>A recursive puzzler. (Winner of Developers Choice at Indiecade!!!)</p>
+                                    </header>
+                                </article>
+								</div>
+							</div>
+
+							<!-- The dots/circles -->
+							<div style="text-align: center">
+								<!-- Next and previous buttons -->
+								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							
+								<span class="dot" onclick="currentSlide(1)"></span>
+								<span class="dot" onclick="currentSlide(2)"></span>
+								<span class="dot" onclick="currentSlide(3)"></span>
+								<span class="dot" onclick="currentSlide(4)"></span>
+
+								<a class="next right" onclick="plusSlides(1)">&#10095;</a>
+							</div>
+
+						</div>
+						</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>Our Upcoming Events</h2>
+									</header>
+									<dl id="eventBin">
+										
+									</dl>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div id="affiliateBin" class="contact-method">
+										<span class="icon solid alt fa-users"></span>
+										<h3>Affiliations</h3>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-calendar"></span>
+										<h3>Next Event</h3>
+										<span>Dev Day - (CSE B225) - 7:00 PM</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Resources</h3>
+										<a href="#">Internship List</a><br>
+										<a href="#">Career Helper</a><br>
+										<a href="#">Interview Prep and Resume Help</a>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://www.facebook.com/groups/VGDC.UCSD/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://bit.ly/VGDCUCSD" class="icon brands alt fa-discord"><span class="label">Discord</span></a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/dataHandle.js"></script>
+			<script src="assets/js/carousel.js"></script>
+	</body>
+</html>
