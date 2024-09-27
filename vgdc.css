@@ -1,0 +1,120 @@
+:root {
+  --header-bg-color: #3AAFA9;
+  --general-bg-color: #17252A;
+}
+
+.generalLink:link {
+  text-decoration: underline;
+  color: inherit;
+}
+
+
+
+a:visited {
+  text-decoration: none;
+   color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: inherit;
+  text-decoration-color:rgba(252,51,89,0.4);
+}
+
+a:active {
+  text-decoration: underline;
+   color: inherit;
+    text-decoration-color:rgba(252,51,89,0.4);
+}
+
+img{
+	position: relative;
+	height: 100%;
+    width:auto; /* you can use % */
+}
+body {
+	background-color: var(--general-bg-color);
+	padding: 0px;
+	margin: 0px;
+	color:white;
+	font-family: 'Manrope', sans-serif;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: 300;
+	font-size: 24px;
+	font-family: 'Lato', sans-serif;
+}
+.bodyWrapper {
+	margin: 2vw;
+	margin-top:3vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#menuWrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: var(--header-bg-color);
+	height:6vh;
+}
+#headerWrapper {
+	margin: 2vw;
+	margin-top:7vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.halfCard {
+	width: 40vw;
+	height: 30vw;
+	background-color: transparent;
+	border-style: solid;
+    border-width: 2px;
+	border-color: black;
+}
+.halfCardSmall{
+	width: 40vw;
+	height: 20vw;
+	background-color: transparent;
+	border-style: solid;
+    border-width: 2px;
+	border-color: black;
+}
+.fullCard  {
+	width: 88vw;
+	height: 30vw;
+	background-color: transparent;
+	border-style: solid;
+    border-width: 2px;
+	border-color: black;
+}
+.fullCardSmall {
+	width: 88vw;
+	height: 15vw;
+	background-color: transparent;
+	border-style: solid;
+    border-width: 2px;
+	border-color: black;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
+
+#imageWrapper {
+	width:35vw;
+}
+#welcomeInfoWrapper {
+	width:35vw;
+	font-size:2vw;
+}
+
